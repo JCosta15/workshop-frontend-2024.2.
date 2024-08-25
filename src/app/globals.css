@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+.font-valorant {
+  font-family: 'Anton', sans-serif;
+}
+
+body{
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px; 
+    justify-content: center;
+  }
+  
+  .card {
+    flex: 1 1 300px;
+  }
+    background-color: #ff4655
+}
